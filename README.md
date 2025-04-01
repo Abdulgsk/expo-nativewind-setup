@@ -34,7 +34,7 @@ Create `global.css` inside the `./app` directory and add:
 @tailwind utilities;
 ```
 
-## Step 5: Configure Babel
+## Step 5: Create and Configure Babel
 Edit `babel.config.js`:
 ```js
 module.exports = function (api) {
@@ -68,9 +68,9 @@ Import the global CSS file in `_layout.tsx`:
 ```js
 import './global.css';
 ```
+## step 8 : reset old codes
+npm reset-project
+Enter : (n)
 
-## Step 8: Start the Expo Project with Cache Clear
-```sh
-npx expo start --clear
-```
+
 
