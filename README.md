@@ -69,7 +69,10 @@ Import the global CSS file in `_layout.tsx`:
 import './global.css';
 ```
 ## step 8 : reset old codes
+Run:
+```sh
 npm reset-project
+```
 Enter : (n)
 
 
